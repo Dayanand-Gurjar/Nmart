@@ -5,6 +5,7 @@
   background-size: cover;
   height: 100vmin;
   display: flex;
+  font-size:large;
   flex-direction: column;
   text-align: center;
   align-items: center;

@@ -1,11 +1,9 @@
 import React from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://instagram.com/";
   };
   return (
     <div className="aboutSection">
@@ -18,30 +16,37 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
+              src="#"
               alt="Founder"
             />
-            <Typography>Abhishek Singh</Typography>
+            <Typography>Dayanand Gurjar</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a sample wesbite made by @meDayanand-Gurjar. 
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brands</Typography>
-            <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
-              target="blank"
-            >
-              <YouTubeIcon className="youtubeSvgIcon" />
-            </a>
+            <Typography component="h2">Message</Typography>
+            <h1>Welcome to N_Mart!</h1>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
-              <InstagramIcon className="instagramSvgIcon" />
-            </a>
+<h3>Discover a World of Shopping Delight</h3>
+
+At N-Mart, we believe that shopping should be an enjoyable and hassle-free experience. With an extensive collection of products, unbeatable prices, and exceptional customer service, we are your go-to destination for all your shopping needs. Whether you're searching for the latest fashion trends, home essentials, electronics, or unique gifts, we've got you covered.
+
+<h3>Shop with Confidence</h3>
+
+
+Experience the convenience of online shopping with peace of mind. We take pride in offering a secure and seamless shopping environment. Our robust security measures ensure that your personal information remains confidential, and our secure payment gateway guarantees safe transactions. Plus, with our reliable and efficient shipping services, your purchases will arrive at your doorstep in no time.
+
+<h3>Unbeatable Selection</h3> 
+
+Discover an unparalleled selection of products that cater to every taste and lifestyle. From trendy fashion apparel and accessories to cutting-edge gadgets and home décor, our diverse range of products ensures that you'll find exactly what you're looking for. Our dedicated team constantly updates our inventory, so you can stay on top of the latest trends and find the perfect items to suit your needs.
+
+<h3>Shop at N-Mart Today</h3>
+
+Start your shopping journey with us and experience the ultimate convenience, selection, and value. Whether you're a fashion enthusiast, tech lover, or simply looking for the perfect gift, we have everything you need. Discover a world of shopping delight at N-Mart and let us exceed your expectations.
           </div>
         </div>
       </div>
