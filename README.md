@@ -1,4 +1,3 @@
-# MERN E-COMMERCE TUTORIAL
 
 Hi! My name is **Dayanand Gurjar**, I have created this Ecommerce website using MERN Stack. 
 
