@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { CgSearch } from "react-icons/all";
+import { BiSearch } from "react-icons/bi";
 import "./Home.css";
 import ProductCard from "./ProductCard.js";
 import MetaData from "../layout/MetaData";
@@ -33,9 +33,9 @@ const Home = () => {
             <h1>Welcome to N-Mart</h1>
             <h2>Discover a World of Shopping Delight</h2>
 
-            <a href="#container">
+            <a href="/search">
               <button>
-                Scroll <CgSearch />
+                Search <BiSearch />
               </button>
             </a>
           </div>
